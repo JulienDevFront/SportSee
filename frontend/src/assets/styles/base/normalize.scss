@@ -1,0 +1,26 @@
+@use '../utils/color.variables.scss' as colors;
+@use '../utils/font-size.variables.scss' as font-size;
+@use 'sass:map';
+
+*,html, body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    outline: 0px solid transparent;
+    text-decoration: none;
+    list-style: none;
+    color: map.get(colors.$monochrome, '950');
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: font-size.$font-base;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: map.get(colors.$monochrome, '950');
+}

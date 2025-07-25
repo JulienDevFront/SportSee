@@ -1,0 +1,25 @@
+/* 👨‍🎨 Here master painter 👋
+This file defines the core color palette used throughout the application. Colors 
+are split into primary  and monochrome shades to ensure  design consistency  and 
+ease of use across components and themes.
+*/
+
+$monochrome : (
+  '50' :  #FFFFFF,
+  '100' : #FBFBFB,
+  '300' : #74798C,
+  '600' : #282D30,
+  '900' : #020203,
+  '950' : #000000,
+);
+
+$primary : (
+  '400' : #FF0000,
+  '500' : #E60000,
+  '600' : #FF0101B2,
+);
+
+$backgroundIcon--apple :    #F9CE23;
+$backgroundIcon--burger :   #FD51811A;
+$backgroundIcon--chicken :  #4AB8FF1A;
+$backgroundIcon--energy :   #FF0000;

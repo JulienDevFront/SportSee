@@ -1,26 +1,35 @@
-@import './variables.css';
-
+@charset "UTF-8";
+/* 👨‍🎨 Here master painter 👋
+This file defines the core color palette used throughout the application. Colors 
+are split into primary  and monochrome shades to ensure  design consistency  and 
+ease of use across components and themes.
+*/
+/* 👨‍🎨 Here master painter 👋
+This file  defines all the font sizes used throughout the  application. 
+These values help standardize titles, paragraphs, and the html elements 
+of type inline.
+*/
 *, html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  outline: 0px solid transparent;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--monochrome-black-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
 }
 
-.AppLayout {
-    width: 100vw;
-    max-width: 1440px;
-    min-width: 1024px;
-    height: 100vh;
-    min-height: 780px;
-    max-height: 1024px;
-    background-color: var(--monochrome-white-color);
-}
+/*# sourceMappingURL=index.css.map */
