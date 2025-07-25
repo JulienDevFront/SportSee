@@ -1,8 +1,13 @@
+import AppLayout from "../layouts/AppLayout.jsx"
 /** HomePage - JS.DOC
  * ---
  */
 export default function HomePage() {
   return (
-    <h1>Hello world 👋</h1>
+    <>
+      <AppLayout>
+        <h1>Hello world 👋</h1>
+      </AppLayout>
+    </>
   )
 }

@@ -1,3 +1,5 @@
+@import './variables.css';
+
 *, html, body {
     margin: 0;
     padding: 0;
@@ -6,6 +8,19 @@
 }
 
 body {
-    background-color: #f0f0f0;
-    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--monochrome-black-color);
+}
+
+.AppLayout {
+    width: 100vw;
+    max-width: 1440px;
+    min-width: 1024px;
+    height: 100vh;
+    min-height: 780px;
+    max-height: 1024px;
+    background-color: var(--monochrome-white-color);
 }
