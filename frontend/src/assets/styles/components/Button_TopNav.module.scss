@@ -1,0 +1,9 @@
+@use '../utils/font-size.variables.scss' as font-sizes;
+@use '../utils/color.variables.scss' as colors;
+@use 'sass:map';
+
+.Button_TopNav {
+    font-weight: 500;
+    font-size: font-sizes.$font-lg;
+    color: map.get(colors.$monochrome, '50');
+};

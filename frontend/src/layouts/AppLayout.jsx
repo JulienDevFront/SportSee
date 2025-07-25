@@ -1,4 +1,5 @@
-import styles from '../assets/styles/layouts/AppLayout.module.scss';
+import styles from '../assets/styles/layouts/AppLayout.module.scss'
+import Layout_TopNav from './Layout_TopNav.jsx'
 /**
  * Main layout component for the SportSee application.
  * - - -
@@ -7,5 +8,8 @@ import styles from '../assets/styles/layouts/AppLayout.module.scss';
  * @returns {JSX.Element} A container wrapping the children.
  */
 export default function AppLayout({ children }) {
-  return <div className={ styles.AppLayout }>{ children }</div>
+  return <div className={ styles.AppLayout }>
+    <Layout_TopNav />
+    { children }
+    </div>
 }

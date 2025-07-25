@@ -1,5 +1,5 @@
 @use '../utils/color.variables.scss' as colors;
-@use '../utils/font-size.variables.scss' as font-size;
+@use '../utils/font-size.variables.scss' as font-sizes;
 @use 'sass:map';
 
 *,html, body {
@@ -14,8 +14,8 @@
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: font-size.$font-base;
-}
+    font-size: font-sizes.$font-base;
+};
 
 body {
     width: 100vw;
@@ -23,4 +23,4 @@ body {
     display: flex;
     justify-content: center;
     background-color: map.get(colors.$monochrome, '950');
-}
+};
