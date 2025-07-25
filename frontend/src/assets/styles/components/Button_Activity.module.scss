@@ -1,0 +1,16 @@
+@use '../utils/color.variables.scss' as colors;
+@use 'sass:map';
+
+.Button_Activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 0.25rem;
+    background-color: map.get(colors.$monochrome, '50');
+
+    img {
+        height: 2rem;
+    }
+};

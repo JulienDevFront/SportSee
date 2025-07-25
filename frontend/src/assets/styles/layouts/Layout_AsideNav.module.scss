@@ -1,0 +1,41 @@
+@use '../utils/color.variables.scss' as colors;
+@use '../utils/font-size.variables.scss' as font-sizes;
+@use 'sass:map';
+
+.Layout_AsideNav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: calc(100vh - 90px);
+    background-color: map.get(colors.$monochrome, '900');
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25rem;
+    };
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+        width: 100%;
+
+        p {
+            writing-mode: sideways-lr;
+            text-align: center;
+            font-weight: 500;
+            font-size: font-sizes.$font-xs;
+            color: map.get(colors.$monochrome, '50');
+        };
+    };
+};
